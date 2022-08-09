@@ -1,0 +1,58 @@
+
+.footer-container {
+    padding: 20px;
+}
+
+.footer-section-1,
+.footer-section-2,
+.footer-section-3 {
+    padding: 30px;
+}
+
+.app-footer-title {
+    font-size: 35px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.app-footer-desc {
+    flex: 1;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
+
+.fa-footer-div {
+    display: flex;
+}
+
+.fa-footer-icon {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    color: white;
+    font-size: 25px;
+    margin-right: 10px;
+    border-radius: 100%;
+    align-self: center;
+    text-align: center;
+}
+
+.useful-links {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+}
+
+.links-list-item {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.contact-us-icon {
+    font-size: 20px;
+    margin-right: 10px;
+    width: 25px;
+}

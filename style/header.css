@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.title-image {
+    width: 80px;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.title-tab-div {
+    flex: 1;
+    height: max-content;
+}
+
+.title-tabs {
+    margin-top: auto;
+}
+
+.title-link {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+.title-link:hover {
+    text-decoration: none;
+}
+
+
+.title-tabs {
+    padding: 10px;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin-top: auto;
+    width: 100px;
+    text-align: center;
+    transition: 0.6s;
+    border: solid 1px #FF6600;
+    color: #FF6600;
+    cursor: pointer;
+}
+
+.title-tabs:hover {
+    border-radius: 0;
+    cursor: pointer;
+    background-color: #FF6600;
+    color: white;
+}
+
+.title-tabs-order {
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    vertical-align: middle;
+    margin-top: auto;
+    width: 130px;
+    text-align: center;
+    font-size: 12px;
+    transition: 0.6s;
+}
+
+.title-tabs-order:hover {
+    border: solid 1px black;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
