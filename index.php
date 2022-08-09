@@ -33,7 +33,7 @@
     <script src="./script/script.js"></script>
 
 
-    <?php include("./src/header.html") ?>
+    <?php include("./src/header.php") ?>
 
 
     <div class="swiper">
@@ -43,7 +43,7 @@
             <div class="swiper-slide">
                 <div class="row">
                     <span class="slider-images-container text-center">
-                        <a href="./src/event.html" style="text-decoration: none;color:black">
+                        <a href="./src/event.php" style="text-decoration: none;color:black">
                             <img src="./assets/images/image1.jpg" class="restaurant-image-large" alt="">
                             <div class="text-center card-restro-name">Hackathon</div>
                             <div class="swiper-slide-caption  g-0">
@@ -223,7 +223,7 @@
         </div>
     </div>
 
-    <?php include("./src/footer.html") ?>
+    <?php include("./src/footer.php") ?>
 
 
     <div id="bottom"></div>

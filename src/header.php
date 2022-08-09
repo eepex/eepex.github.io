@@ -1,12 +1,12 @@
 <div class="d-flex sticky-top"
     style="padding-top:10px;padding-right: 40px;border-bottom: solid 1px rgb(216, 216, 216);background-color: white;">
     <div style="flex: 0.7;">
-        <img src="./UI UX/Logo.png" class="title-image" />
+        <img src="/UI UX/Logo.png" class="title-image" />
     </div>
 
     <div class="row" style="flex:1;padding-top:10px ;">
         <div class="title-tab-div col-2 d-none d-lg-block">
-            <a class="title-link" href="#bottom">
+            <a class="title-link" href="#">
                 <div class="title-tabs">
                     <span class="title-link">
                         Home
