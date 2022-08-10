@@ -43,7 +43,7 @@
             <div class="swiper-slide">
                 <div class="row">
                     <span class="slider-images-container text-center">
-                        <a href="./src/event.php" style="text-decoration: none;color:black">
+                        <a href="/src/Hackathon.php" style="text-decoration: none;color:black">
                             <img src="./assets/images/image1.jpg" class="restaurant-image-large" alt="">
                             <div class="text-center card-restro-name">Hackathon</div>
                             <div class="swiper-slide-caption  g-0">
@@ -61,7 +61,7 @@
                     </span>
 
                     <span class="slider-images-container text-center">
-                        <a href="" style="text-decoration: none;color:black">
+                        <a href="/src/Gaming.php" style="text-decoration: none;color:black">
 
                             <img src="./assets/images/image4.jpg" class="restaurant-image-large" alt="">
                             <div class="text-center card-restro-name">Gaming</div>

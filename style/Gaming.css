@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'FiveRegular';
-    src: url('../assets/fonts/FiverRegular.ttf');
+    font-family: 'Pricedown';
+    src: url('../assets/fonts/Pricedown.otf');
 }
 
 .theme-title {
@@ -32,13 +32,13 @@
 }
 
 .title-text {
-    font-family: 'FiveRegular';
-    font-size: 100px;
+    font-family: 'Pricedown';
+    font-size: 130px;
     font-weight: 500;
 }
 
 .title-text-small {
-    font-family: 'FiveRegular';
+    font-family: 'Pricedown';
     font-size: 40px;
     margin-bottom: -30px;
 }

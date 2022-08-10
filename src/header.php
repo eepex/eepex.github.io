@@ -6,7 +6,7 @@
 
     <div class="row" style="flex:1;padding-top:10px ;">
         <div class="title-tab-div col-2 d-none d-lg-block">
-            <a class="title-link" href="#">
+            <a class="title-link" href="/">
                 <div class="title-tabs">
                     <span class="title-link">
                         Home

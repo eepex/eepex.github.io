@@ -1,7 +1,7 @@
 
     <div class="footer-container row g-0">
         <div class="footer-section-1 d-flex flex-column col col-md-12 col-lg-4" >
-            <div class="app-footer-title">EEPEx 20222</div>
+            <div class="app-footer-title">EEPEx 2022</div>
             <div class="app-footer-desc">EEPEx 2022 is the biggest electrical and electronics project of 2022. Hosted by
                 Society of Electrical and Electronics Engineering of Kathmandu University. This event will provide you
                 the biggest experience of your lifetime.

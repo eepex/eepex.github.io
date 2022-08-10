@@ -1,21 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-@font-face {
-    font-family: 'FiveRegular';
-    src: url('../assets/fonts/FiverRegular.ttf');
-}
-
-.title-text{
-    font-family: 'FiveRegular';
-    font-size: 100px;
-    font-weight: 500;
-}
-
-.title-text-small{
-    font-family: 'FiveRegular';
-    font-size: 40px;
-    margin-bottom: -30px;
-}
 
 .btn-register{
     background-color: white;
