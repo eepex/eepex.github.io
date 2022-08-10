@@ -35,20 +35,20 @@
                 <a href="" class="btn-register">
                     Register Now
                 </a>
-                <p class="title-text" style="font-size: 40px;margin-top:100px;letter-spacing:4px;margin-bottom:40px">Top Charts</p>
 
 
             </div>
         </div>
         <div class="col-lg-6" style="background-color: black;color:white">
             <div class="text-center" style="padding: 20px;padding-top:70px">
+                <i class="fa fa-github" style="font-size: 200px;"></i>
+
                 <p class="title-text-small">Ultimate</p>
                 <p class="title-text">AI Gaming</p>
 
                 <a href="" class="btn-register">
                     Register Now
                 </a>
-                <p class="title-text" style="font-size: 40px;margin-top:100px;letter-spacing:4px;margin-bottom:40px">Top Charts</p>
 
 
             </div>
