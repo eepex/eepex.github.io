@@ -1,8 +1,8 @@
 <div class="d-flex sticky-top"
     style="padding-top:10px;padding-right: 40px;border-bottom: solid 1px rgb(216, 216, 216);background-color: white;">
-    <div style="flex: 0.7;">
+    <a href="/" style="flex: 0.7;">
         <img src="/UI UX/Logo.png" class="title-image" />
-    </div>
+    </a>
 
     <div class="row" style="flex:1;padding-top:10px ;">
         <div class="title-tab-div col-2 d-none d-lg-block">

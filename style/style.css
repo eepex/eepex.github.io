@@ -1,6 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+#demo{
+    position: relative;
+    color: white;
+    bottom: 370px;
+    z-index: 99;
+}
+.date-label{
+    background-color: black;
+    margin: 10px;
+    border-radius: 4px;
+    font-size:25px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.event-list{
+    color: #ffffff;
+    background-color: #FF6600;
+    border-radius: 10px;
+    padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border: solid 1px #FF6600;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 20px;
+    transition: 0.5s;
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+}
+.event-list:hover{
+    color: #FF6600;
+    background-color: white;
+    text-decoration: none;
+}
+.header-image{
+    width: 100%;
+    object-fit: contain;
+
+}
 .restaurant-container {
     padding: 30px;
     display: flex;
