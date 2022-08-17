@@ -223,7 +223,7 @@ $docroot = "https://seee.ku.edu.np/wp-content/themes/neve/eepex";
             $handle = opendir($working_dir);
             while ($file = readdir($handle)) {
                 if ($file !== '.' && $file !== '..') {
-                    echo '<div class="col-3" style="padding: 10px;">
+                    echo '<div class="col-lg-4 col-md-6 col-sm-8 col-xs-12" style="padding: 10px;">
                 <a href="/assets/images/event/' . $file . '" target="_blank">
                     <img src="/assets/images/event/' . $file . '" style="width:100%;height:250px;object-fit:cover" alt="">
                 </a>
