@@ -1,3 +1,11 @@
+<?php
+/*
+Template Name: EEPEx Home
+*/
+$docroot = "https://seee.ku.edu.np/wp-content/themes/neve/eepex";
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -203,8 +211,35 @@
         </div>
 
     </div>
+    <div class="newsletter-title text-center" style="margin-top: 50px;">
+        Gallery
+    </div>
 
+    <div class="" style="padding:20px ;">
+        <div class="row g-0">
+        <?php
+            $working_dir = getcwd();
+            $working_dir = $working_dir . "/assets/images/event/";
+            $handle = opendir($working_dir);
+            while ($file = readdir($handle)) {
+                if ($file !== '.' && $file !== '..') {
+                    echo '<div class="col-3" style="padding: 10px;">
+                <a href="/assets/images/event/' . $file . '" target="_blank">
+                    <img src="/assets/images/event/' . $file . '" style="width:100%;height:250px;object-fit:cover" alt="">
+                </a>
+            </div>';
+                }
+            }
 
+            ?>
+        </div>
+    </div>
+
+    <div style="width:100%;text-align:center">
+        <a href="/src/Gallery.php" class="btn btn-dark" style="width:50%;padding:20px;color:white">
+            View Gallery
+        </a>
+    </div>
     <div class="newsletter-container text-center">
         <div class="newsletter-title">
             Newsletter
@@ -225,64 +260,7 @@
 
 
     <script>
-        const swiper = new Swiper('.swiper', {
-            // Optional parameters
-            direction: 'horizontal',
-            loop: true,
-            speed: 3000,
-
-            // If we need pagination
-            pagination: {
-                el: '.swiper-pagination',
-            },
-
-            // Navigation arrows
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-
-            // And if we need scrollbar
-            scrollbar: {
-                el: '.swiper-scrollbar',
-            },
-        });
-        if (screen.width < 600) {
-            swiper.destroy()
-            var elem = document.getElementById("swiper-btn-1");
-            elem.remove();
-            elem = document.getElementById("swiper-btn-2");
-            elem.remove();
-
-        }
-        // Set the date we're counting down to
-        var countDownDate = new Date("Sep 15, 2022 00:00:00").getTime();
-
-        // Update the count down every 1 second
-        var x = setInterval(function() {
-
-            // Get today's date and time
-            var now = new Date().getTime();
-
-            // Find the distance between now and the count down date
-            var distance = countDownDate - now;
-
-            // Time calculations for days, hours, minutes and seconds
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-            // Display the result in the element with id="demo"
-            document.getElementById("demo").innerHTML = "<p class='date-label'>" + days + "days </p>" + "<p class='date-label'>" + hours + "hours </p>" +
-                "<p class='date-label'>" + minutes + "m </p>" + "<p class='date-label'>" + seconds + "s </p>";
-
-            // If the count down is finished, write some text
-            if (distance < 0) {
-                clearInterval(x);
-                document.getElementById("demo").innerHTML = "EXPIRED";
-            }
-        }, 1000);
+        document.getElementById('iframe').contentDocument.getElementByTagName("img").width = '300'
     </script>
 
 </body>

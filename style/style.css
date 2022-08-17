@@ -1,22 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-#demo{
+
+#demo {
     position: relative;
     color: white;
     bottom: 370px;
     z-index: 99;
 }
-.date-label{
+
+.date-label {
     background-color: black;
     margin: 10px;
     border-radius: 4px;
-    font-size:25px;
+    font-size: 25px;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
 }
-.event-list{
+
+.event-list {
     color: #ffffff;
     background-color: #FF6600;
     border-radius: 10px;
@@ -32,16 +35,19 @@
     margin: auto;
     margin-top: 40px;
 }
-.event-list:hover{
+
+.event-list:hover {
     color: #FF6600;
     background-color: white;
     text-decoration: none;
 }
-.header-image{
+
+.header-image {
     width: 100%;
     object-fit: contain;
 
 }
+
 .restaurant-container {
     padding: 30px;
     display: flex;
