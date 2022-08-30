@@ -36,10 +36,14 @@ $docroot = "https://seee.ku.edu.np/wp-content/themes/neve/eepex";
     <?php include("./src/header.php") ?>
 
 
-    <div class=" text-center" style="display: flex;flex-direction:column">
-        <img src="/assets/images/back.gif" class="header-image" alt="">
-
-
+    <div class="background-header text-center" style="display: flex;flex-direction:column">
+        <img src="./assets/images/Yamaha-Logo.png" class="background-logo-yamaha" alt="">
+        <div class="text-center background-header-title">
+            EEPEx-2022
+        </div>
+        <div class="text-center background-header-desc">
+            Envision.Evolve.Exhibit
+        </div>
     </div>
     <div class="newsletter-title text-center" style="margin-top: 50px;">
         Events
@@ -217,7 +221,7 @@ $docroot = "https://seee.ku.edu.np/wp-content/themes/neve/eepex";
 
     <div class="" style="padding:20px ;">
         <div class="row g-0">
-        <?php
+            <?php
             $working_dir = getcwd();
             $working_dir = $working_dir . "/assets/images/event/";
             $handle = opendir($working_dir);

@@ -1,4 +1,7 @@
 2022/8/16: Updated the index file for gallery style.css, gallery.php
 
-2022/8/28: Contact.php added, added contact us to header in php, added Events, added Notices
+2022/8/28: Contact.php added, added contact us to header in php, added Events, added Notices, added Sponsor
+2022/8/30: Adjusted header, change the front page image
+            .background header css add media queries
+            yamaha logo added
 

@@ -2,6 +2,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
+.background-header {
+    
+    padding-bottom: 70px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(27, 20, 100, 1) 0%, rgba(27, 23, 102, 1) 0%, rgba(0, 108, 130, 1) 100%);
+}
+
+.background-header-title {
+    color: white;
+    font-size: 120px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+.background-header-desc {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.background-logo-yamaha{
+    width: 200px;
+    position: absolute;
+    margin: 30px;
+}
+
 #demo {
     position: relative;
     color: white;
@@ -215,7 +241,20 @@
     max-width: 50%;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 800px) {
+    .background-header-title {
+        font-size: 60px;
+    }
+
+    .background-header-desc {
+        font-size: 30px;
+    }
+    .background-logo-yamaha{
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
 
     .newsletter-container {
         padding: 10px;
@@ -271,5 +310,13 @@
 
     .view-in-ar {
         margin-bottom: 40px;
+    }
+
+    .background-header-title {
+        font-size: 60px;
+    }
+
+    .background-header-desc {
+        font-size: 30px;
     }
 }
