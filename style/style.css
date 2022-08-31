@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+.sponsor-div{
+    transition: background-color 0.5s;
+    padding: 50px;
+}
+.sponsor-div:hover{
+    background-color: rgb(232, 232, 232);
+
+}
 
 .background-header {
     

@@ -44,8 +44,28 @@ $docroot = "https://seee.ku.edu.np/wp-content/themes/neve/eepex";
         <div class="text-center background-header-desc">
             Envision.Evolve.Exhibit
         </div>
+        <div class="sub-div">
+            <div class="d-flex" style="flex-direction:column">
+                <div class="d-flex " style="font-size: 20px;margin:auto;background-color:white;font-weight:700;margin-top:10px;padding:10px;border-radius:5px;">
+                    <i class="fa fa-calendar-check  text-center" style="margin-right: 20px;margin-top:5px"></i>
+                    <span>
+                        15<sup>th</sup> and 16<sup>th</sup> September
+                    </span>
+                </div>
+                <div class="d-flex " style="font-size: 20px;margin:auto;background-color:white;font-weight:700;margin-top:10px;padding:10px;border-radius:5px;">
+                    <i class="fa fa-compass  text-center" style="margin-right: 20px;margin-top:5px"></i>
+                    <span>
+                        Kathmandu University
+                    </span>
+                </div>
+
+            </div>
+        </div>
     </div>
-    <div class="newsletter-title text-center" style="margin-top: 50px;">
+
+
+
+    <div class="newsletter-title text-center" style="margin-top: 50px; font-weight:700">
         Events
     </div>
     <!-- Additional required wrapper -->
@@ -215,6 +235,30 @@ $docroot = "https://seee.ku.edu.np/wp-content/themes/neve/eepex";
         </div>
 
     </div>
+    <div class="sponsor-section">
+        <div class="newsletter-title text-center" style="margin-top: 50px;font-weight:700;margin-bottom:50px">
+            Our Sponsors
+        </div>
+        <div class="row">
+            <a href="https://www.yamaha.com.np/" class="col-md-6 sponsor-div" style="display:flex;flex-direction:column">
+                <img src="./assets/images/Yamaha-Logo.png" style="width: 75%;margin:auto" alt="" srcset="">
+            </a>
+            <div class="col-md-6">
+                <div class="row">
+                    <a href="https://www.skoda.com.np/" class="col-md-6 sponsor-div" style="display:flex;flex-direction:column">
+                        <img src="./assets/images/skoda.jpg" style="width: 75%;margin:auto" alt="" srcset="">
+                    </a>
+                    <a href="https://bassandtreble.shop/" class="col-md-6 sponsor-div" style="display:flex;flex-direction:column">
+                        <img src="./assets/images/bass and treble.png" style="width: 75%;margin:auto" alt="" srcset="">
+                    </a>
+                    <a href="https://www.fonepay.com/" class="col-md-6 sponsor-div" style="display:flex;flex-direction:column">
+                        <img src="./assets/images/fonepay.png" style="width: 75%;margin:auto" alt="" srcset="">
+                    </a>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="newsletter-title text-center" style="margin-top: 50px;">
         Gallery
     </div>
@@ -238,6 +282,9 @@ $docroot = "https://seee.ku.edu.np/wp-content/themes/neve/eepex";
             ?>
         </div>
     </div>
+
+
+
 
     <div style="width:100%;text-align:center">
         <a href="/src/Gallery.php" class="btn btn-dark" style="width:50%;padding:20px;color:white">
