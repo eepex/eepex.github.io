@@ -9,7 +9,7 @@
     <link rel="icon" type="image/x-icon" href="./assets/images/logo.png">
     <link rel="stylesheet" href="../style/basicEvent.css">
     <link rel="stylesheet" href="../style/header.css">
-    <link rel="stylesheet" href="../style/Hackathon.css">
+    <link rel="stylesheet" href="../style/events.css">
     <link rel="stylesheet" href="../style/footer.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
@@ -26,9 +26,173 @@
 
 
     <?php include("./header.php") ?>
+    <div class="text-center" style="font-size: 40px;font-weight:700;margin:30px">Events</div>
+    <div class="swiper-slide">
 
-   
+        <div class="row">
+            <span class="slider-images-container text-center">
+                <a href="/src/Hackathon.php" style="text-decoration: none;color:black">
+                    <img src="../assets/images/image1.jpg" class="restaurant-image-large" alt="">
+                    <div class="text-center card-restro-name">Hackathon</div>
+                    <div class="swiper-slide-caption  g-0">
+                        <a class="col-4">
+                            <i class="fa fa-bullhorn slider-images-container-icon"></i>
+                        </a>
+                        <a class="col-4">
+                            <i class="fa fa-user-astronaut slider-images-container-icon"></i>
+                        </a>
+                        <a class="col-4">
+                            <i class="fa fa-info slider-images-container-icon"></i>
+                        </a>
+                    </div>
+                </a>
+            </span>
 
+            <span class="slider-images-container text-center">
+                <a href="/src/Gaming.php" style="text-decoration: none;color:black">
+
+                    <img src="../assets/images/image4.jpg" class="restaurant-image-large" alt="">
+                    <div class="text-center card-restro-name">Gaming</div>
+                    <div class="swiper-slide-caption  g-0">
+                        <a class="col-4">
+                            <i class="fa fa-bullhorn slider-images-container-icon"></i>
+                        </a>
+                        <a class="col-4">
+                            <i class="fa fa-user-astronaut slider-images-container-icon"></i>
+                        </a>
+                        <a class="col-4">
+                            <i class="fa fa-info slider-images-container-icon"></i>
+                        </a>
+                    </div>
+                </a>
+            </span>
+
+
+            <span class="slider-images-container text-center">
+                <a href="/src/CircuitCompetition.php" style="text-decoration: none;color:black">
+
+                    <img src="../assets/images/image6.jpg" class="restaurant-image-large" alt="">
+                    <div class="text-center card-restro-name">Circuit Competition</div>
+                    <div class="swiper-slide-caption  g-0">
+                        <a class="col-4">
+                            <i class="fa fa-bullhorn slider-images-container-icon"></i>
+                        </a>
+                        <a class="col-4">
+                            <i class="fa fa-user-astronaut slider-images-container-icon"></i>
+                        </a>
+                        <a class="col-4">
+                            <i class="fa fa-info slider-images-container-icon"></i>
+                        </a>
+                    </div>
+                </a>
+            </span>
+
+            <span class="slider-images-container text-center">
+                <a href="/src/RoboWar.php" style="text-decoration: none;color:black">
+
+                    <img src="../assets/images/image7.jpg" class="restaurant-image-large" alt="">
+                    <div class="text-center card-restro-name">Robo War </div>
+                    <div class="swiper-slide-caption  g-0">
+                        <a class="col-4">
+                            <i class="fa fa-bullhorn slider-images-container-icon"></i>
+                        </a>
+                        <a class="col-4">
+                            <i class="fa fa-user-astronaut slider-images-container-icon"></i>
+                        </a>
+                        <a class="col-4">
+                            <i class="fa fa-info slider-images-container-icon"></i>
+                        </a>
+                    </div>
+                </a>
+            </span>
+
+
+
+        </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="row">
+            <span class="slider-images-container text-center">
+                <a href="/src/Acoustic.php" style="text-decoration: none;color:black">
+
+                    <img src="../assets/images/image5.jpg" class="restaurant-image-large" alt="">
+                    <div class="text-center card-restro-name">Acoustic</div>
+                    <div class="swiper-slide-caption  g-0">
+                        <a class="col-4">
+                            <i class="fa fa-bullhorn slider-images-container-icon"></i>
+                        </a>
+                        <a class="col-4">
+                            <i class="fa fa-user-astronaut slider-images-container-icon"></i>
+                        </a>
+                        <a class="col-4">
+                            <i class="fa fa-info slider-images-container-icon"></i>
+                        </a>
+                    </div>
+                </a>
+            </span>
+
+            <span class="slider-images-container text-center">
+                <a href="/src/Talkshow.php" style="text-decoration: none;color:black">
+
+                    <img src="../assets/images/image8.jpg" class="restaurant-image-large" alt="">
+                    <div class="text-center card-restro-name">Talk Show</div>
+                    <div class="swiper-slide-caption  g-0">
+                        <a class="col-4">
+                            <i class="fa fa-bullhorn slider-images-container-icon"></i>
+                        </a>
+                        <a class="col-4">
+                            <i class="fa fa-user-astronaut slider-images-container-icon"></i>
+                        </a>
+                        <a class="col-4">
+                            <i class="fa fa-info slider-images-container-icon"></i>
+                        </a>
+                    </div>
+                </a>
+            </span>
+
+            <span class="slider-images-container text-center">
+                <a href="/src/Training.php" style="text-decoration: none;color:black">
+
+                    <img src="../assets/images/image3.jpg" class="restaurant-image-large" alt="">
+                    <div class="text-center card-restro-name">Electronics Training</div>
+                    <div class="swiper-slide-caption  g-0">
+                        <a class="col-4">
+                            <i class="fa fa-bullhorn slider-images-container-icon"></i>
+                        </a>
+                        <a class="col-4">
+                            <i class="fa fa-user-astronaut slider-images-container-icon"></i>
+                        </a>
+                        <a class="col-4">
+                            <i class="fa fa-info slider-images-container-icon"></i>
+                        </a>
+                    </div>
+                </a>
+            </span>
+
+            <span class="slider-images-container text-center">
+                <a href="/src/Sports.php" style="text-decoration: none;color:black">
+
+                    <img src="../assets/images/image2.jpg" class="restaurant-image-large" alt="">
+                    <div class="text-center card-restro-name">Sports</div>
+                    <div class="swiper-slide-caption  g-0">
+                        <a class="col-4">
+                            <i class="fa fa-bullhorn slider-images-container-icon"></i>
+                        </a>
+                        <a class="col-4">
+                            <i class="fa fa-user-astronaut slider-images-container-icon"></i>
+                        </a>
+                        <a class="col-4">
+                            <i class="fa fa-info slider-images-container-icon"></i>
+                        </a>
+                    </div>
+                </a>
+            </span>
+
+
+
+        </div>
+
+    </div>
 
     <?php include("./footer.php") ?>
 

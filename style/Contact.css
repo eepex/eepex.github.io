@@ -1,0 +1,47 @@
+.coordinator-div {
+    padding: 30px;
+    width: 70%;
+    margin: auto;
+}
+
+.coordinator-title {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.coordinator-image {
+    width: 300px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom:50px
+}
+
+.introduction-section {
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgb(242, 242, 242);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.email {
+    font-size: 13px;
+    font-weight:500;
+}
+
+.contact {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.short-description{
+    font-style: italic;
+    margin-bottom: 30px;
+}

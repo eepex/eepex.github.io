@@ -9,7 +9,7 @@
     <link rel="icon" type="image/x-icon" href="./assets/images/logo.png">
     <link rel="stylesheet" href="../style/basicEvent.css">
     <link rel="stylesheet" href="../style/header.css">
-    <link rel="stylesheet" href="../style/Hackathon.css">
+    <link rel="stylesheet" href="../style/Contact.css">
     <link rel="stylesheet" href="../style/footer.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
@@ -27,7 +27,31 @@
 
     <?php include("./header.php") ?>
 
-   
+    <div class="coordinator-div">
+        <div class="coordinator-title">EEPEx Coordinator</div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="../assets/images/shashank.jpg" alt="" class="coordinator-image">
+            </div>
+            <div class="col-md-6">
+                <div class="introduction-section">
+                    <div class="short-description">
+                        "We have worked hard to make sure every enginner from all over the country gets the opportunity to showcase their product and ideas. We believe innovation is the key to advancement of a community as a whole. Please visit us, it will be a memorable experience."
+                    </div>
+                    <span class="name">
+                        Shashank Dahal
+                    </span>
+                    <span class="email">
+                        hackeepex22@gmail.com
+                    </span>
+                    <span class="contact">
+                        9860304445
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
     <?php include("./footer.php") ?>

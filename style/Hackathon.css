@@ -3,6 +3,35 @@
     src: url('../assets/fonts/FiverRegular.ttf');
 }
 
+
+.btn-register{
+    padding:20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    width: 500px;
+    transition-duration: 1s;
+    
+}
+
+.btn-register:hover{
+    color: black;
+    border: solid black 1px;
+    background-color: white;
+}
+
+.themes-not-disclosed{
+    padding: 20px;
+    background-color: coral;
+    color:white;
+    font-size: 24px;
+    font-weight: 600;
+    width: 50%;
+    margin: auto;
+}
+
 .theme-title {
     padding: 20px;
     margin-top: 10px;

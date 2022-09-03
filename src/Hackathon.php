@@ -27,15 +27,21 @@
 
     <?php include("./header.php") ?>
 
-    <div class="container text-center" style="padding: 20px;padding-top:70px">
-        <p class="title-text-small">HARDWARE</p>
-        <p class="title-text">HACKATHON</p>
+    <div class=" text-center">
+        <div class="text-center" style="background-image:url('../assets/images/hackathon.jpg');padding:100px;background-size:auto;">
+            <p class="title-text-small">HARDWARE</p>
+            <p class="title-text">HACKATHON</p>
+            <a href="" class="btn-register">
+                Register Now
+            </a>
+        </div>
 
-        <a href="" class="btn-register">
-            Register Now
-        </a>
         <p class="title-text" style="font-size: 40px;font-weight:700;margin-top:100px;letter-spacing:4px;margin-bottom:40px">THEMES</p>
 
+        <div class="themes-not-disclosed text-center">
+            Themes Will be Disclosed 24hrs before the Hackathon.
+        </div>
+        <!--
         <div class="row theme-container g-0">
             <div class="col-lg-4 col-md-12 theme-box">
                 <div class="card" style="width: 20rem;">
@@ -92,10 +98,12 @@
                 </div>
             </div>
 
-            <p class="title-text text-center" style="font-size: 35px;font-weight:700;margin-top:70px;letter-spacing:2px;">Prizes</p>
+            ------>
+
+        <p class="title-text text-center" style="font-size: 35px;font-weight:700;margin-top:70px;letter-spacing:2px;">Prizes</p>
 
 
-        </div>
+    </div>
     </div>
 
 

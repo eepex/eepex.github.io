@@ -1,44 +1,84 @@
-@font-face {
-    font-family: 'FiveRegular';
-    src: url('../assets/fonts/FiverRegular.ttf');
+.background-header {
+
+    padding-bottom: 70px;
+    background: rgb(101, 67, 33);
+    background: linear-gradient(90deg, rgba(101, 67, 33, 1) 0%, rgba(152, 117, 83, 1) 100%);
 }
 
-.theme-title {
-    padding: 20px;
-    margin-top: 10px;
-    position: relative;
-    bottom: 50%;
-    z-index: 999;
-    background-color: white;
-    width: 40%;
-    margin: auto;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+.background-header-title {
+    color: white;
+    font-size: 120px;
+    font-weight: 700;
+    margin-top: 100px;
 }
 
-.theme-box {
-    margin-top: 20px;
-}
-
-.theme-image-box {
-    background-color: black;
-}
-
-.card-img-top {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-
-.title-text {
-    font-family: 'FiveRegular';
-    font-size: 100px;
-    font-weight: 500;
-}
-
-.title-text-small {
-    font-family: 'FiveRegular';
+.background-header-desc {
+    color: white;
     font-size: 40px;
-    margin-bottom: -30px;
+    font-weight: 700;
+}
+
+.background-logo-yamaha {
+    width: 200px;
+    position: absolute;
+    margin: 30px;
+}
+
+
+.btn-register {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    transition: 0.5s;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    border: solid black 2px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.btn-register:hover {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+
+.a-link {
+    text-decoration: none;
+    width: 100%;
+    align-items: center;
+    align-self: center;
+}
+
+.a-link:hover {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .background-header-title {
+        color: white;
+        font-size: 80px;
+        font-weight: 700;
+        margin-top: 140px;
+    }
+    
+    .background-header-desc {
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .background-logo-yamaha {
+        width: 150px;
+        position: absolute;
+        margin: 30px;
+    }
+    
 }

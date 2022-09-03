@@ -27,76 +27,43 @@
 
     <?php include("./header.php") ?>
 
-    <div class="container text-center" style="padding: 20px;padding-top:70px">
-        <p class="title-text">Robo War</p>
-
-        <a href="" class="btn-register">
-            Register Now
-        </a>
-        <p class="title-text" style="font-size: 40px;font-weight:700;margin-top:100px;letter-spacing:4px;margin-bottom:40px">THEMES</p>
-
-        <div class="row theme-container g-0 text-center">
-            <div class="col-lg-4 col-md-12 theme-box text-center">
-                <div class="card text-center" style="width: 20rem;">
-                    <img class="card-img-top" src="../assets/images/image1.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Theme 1</h5>
-                        <p class="card-text">Basic Info About Theme 1</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12 theme-box">
-                <div class="card" style="width: 20rem;">
-                    <img class="card-img-top" src="../assets/images/image2.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Theme 2</h5>
-                        <p class="card-text">Basic Info About Theme 1</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12 theme-box">
-                <div class="card" style="width: 20rem;">
-                    <img class="card-img-top" src="../assets/images/image3.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Theme 3</h5>
-                        <p class="card-text">Basic Info About Theme 1</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12 theme-box">
-                <div class="card" style="width: 20rem;">
-                    <img class="card-img-top" src="../assets/images/image4.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Theme 4</h5>
-                        <p class="card-text">Basic Info About Theme 1</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12 theme-box">
-                <div class="card" style="width: 20rem;">
-                    <img class="card-img-top" src="../assets/images/image5.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Theme 5</h5>
-                        <p class="card-text">Basic Info About Theme 1</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12 theme-box">
-                <div class="card" style="width: 20rem;">
-                    <img class="card-img-top" src="../assets/images/image6.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Theme 6</h5>
-                        <p class="card-text">Basic Info About Theme 1</p>
-                    </div>
-                </div>
-            </div>
-
-            <p class="title-text text-center" style="font-size: 35px;font-weight:700;margin-top:70px;letter-spacing:2px;">Prizes</p>
-
-
+    <div class="background-header text-center" style="display: flex;flex-direction:column">
+        <img src="../assets/images/Yamaha-Logo.png" class="background-logo-yamaha" alt="">
+        <div class="text-center background-header-title">
+            Robo War
         </div>
-    </div>
+        <div class="text-center background-header-desc">
+            Let the bots collide !!!
+        </div>
+        <div class="sub-div">
+            <div class="d-flex" style="flex-direction:column">
+                <div class="d-flex " style="font-size: 20px;margin:auto;background-color:white;font-weight:700;margin-top:10px;padding:10px;border-radius:5px;">
+                    <i class="fa fa-calendar-check  text-center" style="margin-right: 20px;margin-top:5px"></i>
+                    <span>
+                        15<sup>th</sup> and 16<sup>th</sup> September
+                    </span>
+                </div>
+                <div class="d-flex " style="font-size: 20px;margin:auto;background-color:white;font-weight:700;margin-top:10px;padding:10px;border-radius:5px;">
+                    <i class="fa fa-compass  text-center" style="margin-right: 20px;margin-top:5px"></i>
+                    <span>
+                        Kathmandu University
+                    </span>
+                </div>
 
+            </div>
+        </div>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZRBSWTvuECm0tIDdz1r509sf9dGADxBtPyKbiY6Hdq_sx9Q/viewform" class="text-center a-link" style="width: 60%;">
+            <div class="btn-register text-center">
+                Register Now
+            </div>
+        </a>
+        <a href="https://drive.google.com/file/d/1cerYfXzRKESdUwSYStHItpsJO2lgqIAh/view" class="text-center a-link" style="width: 200px;">
+            <div class="btn-secondary text-center" style="width:100%;margin:auto;padding:15px;font-size:14px">
+                Download Rule Book 
+            </div>
+        </a>
+
+    </div>
 
 
 

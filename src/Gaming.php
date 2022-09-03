@@ -26,34 +26,35 @@
 
 
     <?php include("./header.php") ?>
-    <div class="row">
-        <div class="col-lg-6">
-            <div class="text-center" style="padding: 20px;padding-top:70px">
-                <p class="title-text-small">Ultimate</p>
-                <p class="title-text">AI Gaming</p>
 
-                <a href="" class="btn-register">
-                    Register Now
-                </a>
-
-
-            </div>
+    <div class="background-header text-center" style="display: flex;flex-direction:column">
+        <img src="../assets/images/Yamaha-Logo.png" class="background-logo-yamaha" alt="">
+        <div class="text-center background-header-title">
+            AI Gaming
         </div>
-        <div class="col-lg-6" style="background-color: black;color:white">
-            <div class="text-center" style="padding: 20px;padding-top:120px;padding-bottom:120px">
-                <i class="fa fa-github" style="font-size: 200px;"></i>
-
-                <p class="title-text-small-git text-for-github">Git Github</p>
-                <p class="title-text-git text-for-github">Workshop</p>
-
-                <a href="" class="btn-register">
-                    Register Now
-                </a>
-
+        <div class="text-center background-header-desc">
+            Learn AI by coding AI
+        </div>
+        <div class="sub-div">
+            <div class="d-flex" style="flex-direction:column">
+                <div class="d-flex " style="font-size: 20px;margin:auto;background-color:white;font-weight:700;margin-top:10px;padding:10px;border-radius:5px;">
+                    <i class="fa fa-calendar-check  text-center" style="margin-right: 20px;margin-top:5px"></i>
+                    <span>
+                        15<sup>th</sup> and 16<sup>th</sup> September
+                    </span>
+                </div>
+                <div class="d-flex " style="font-size: 20px;margin:auto;background-color:white;font-weight:700;margin-top:10px;padding:10px;border-radius:5px;">
+                    <i class="fa fa-compass  text-center" style="margin-right: 20px;margin-top:5px"></i>
+                    <span>
+                        Kathmandu University
+                    </span>
+                </div>
 
             </div>
         </div>
     </div>
+    <div class="text-center" style="font-size: 40px;font-weight:700;margin:30px">Gallery</div>
+
 
 
 
