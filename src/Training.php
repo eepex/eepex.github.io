@@ -9,7 +9,7 @@
     <link rel="icon" type="image/x-icon" href="./assets/images/logo.png">
     <link rel="stylesheet" href="../style/basicEvent.css">
     <link rel="stylesheet" href="../style/header.css">
-    <link rel="stylesheet" href="../style/Hackathon.css">
+    <link rel="stylesheet" href="../style/Training.css">
     <link rel="stylesheet" href="../style/footer.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
@@ -27,76 +27,30 @@
 
     <?php include("./header.php") ?>
 
-    <div class="container text-center" style="padding: 20px;padding-top:70px">
-        <p class="title-text-small">Electronics</p>
-        <p class="title-text">School Training</p>
+   
+    <div class="background-header text-center" style="display: flex;flex-direction:column">
+        <img src="../assets/images/Yamaha-Logo.png" class="background-logo-yamaha" alt="">
+        <div class="text-center background-header-title">
+            School Training
+        </div>
+        <div class="text-center background-header-desc">
+            Empowering Students
+        </div>
+        <div class="sub-div">
+            <div class="d-flex" style="flex-direction:column">
+                <div class="d-flex " style="font-size: 20px;margin:auto;background-color:white;font-weight:700;margin-top:10px;padding:10px;border-radius:5px;">
+                    <i class="fa fa-compass  text-center" style="margin-right: 20px;margin-top:5px"></i>
+                    <span>
+                        Kathmandu University
+                    </span>
+                </div>
 
-        <a href="" class="btn-register">
-            Register Now
-        </a>
-        <p class="title-text" style="font-size: 40px;font-weight:700;margin-top:100px;letter-spacing:4px;margin-bottom:40px">THEMES</p>
-
-        <div class="row theme-container g-0">
-            <div class="col-lg-4 col-md-12 theme-box">
-                <div class="card" style="width: 20rem;">
-                    <img class="card-img-top" src="../assets/images/image1.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Theme 1</h5>
-                        <p class="card-text">Basic Info About Theme 1</p>
-                    </div>
-                </div>
             </div>
-            <div class="col-lg-4 col-md-12 theme-box">
-                <div class="card" style="width: 20rem;">
-                    <img class="card-img-top" src="../assets/images/image2.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Theme 2</h5>
-                        <p class="card-text">Basic Info About Theme 1</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12 theme-box">
-                <div class="card" style="width: 20rem;">
-                    <img class="card-img-top" src="../assets/images/image3.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Theme 3</h5>
-                        <p class="card-text">Basic Info About Theme 1</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12 theme-box">
-                <div class="card" style="width: 20rem;">
-                    <img class="card-img-top" src="../assets/images/image4.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Theme 4</h5>
-                        <p class="card-text">Basic Info About Theme 1</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12 theme-box">
-                <div class="card" style="width: 20rem;">
-                    <img class="card-img-top" src="../assets/images/image5.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Theme 5</h5>
-                        <p class="card-text">Basic Info About Theme 1</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12 theme-box">
-                <div class="card" style="width: 20rem;">
-                    <img class="card-img-top" src="../assets/images/image6.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Theme 6</h5>
-                        <p class="card-text">Basic Info About Theme 1</p>
-                    </div>
-                </div>
-            </div>
-
-            <p class="title-text text-center" style="font-size: 35px;font-weight:700;margin-top:70px;letter-spacing:2px;">Prizes</p>
-
-
         </div>
     </div>
+
+    
+    <img src="../assets/images/training1.jpg" alt="">
 
 
 
